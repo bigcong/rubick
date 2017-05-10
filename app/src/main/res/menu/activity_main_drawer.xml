@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/bill_item"
+            android:icon="@drawable/ic_bill"
+            android:title="@string/bill" />
+        <item
+            android:id="@+id/chart_item"
+            android:icon="@drawable/ic_chart"
+            android:title="@string/chart" />
+        <item
+            android:id="@+id/sms_item"
+            android:icon="@drawable/ic_synchrodata"
+            android:title="@string/asyc_contact" />
+        <item
+            android:id="@+id/sensor_item"
+            android:icon="@drawable/ic_sensor"
+            android:title="@string/get_sensor" />
+        <item
+            android:id="@+id/gps_item"
+            android:icon="@drawable/ic_gps"
+            android:title="@string/get_gps" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bule">#333333</color>
+    <color name="深红色">#FE4365</color>
+    <color name="浅红色">#FC9D9A</color>
+    <color name="浅黄色">#F9CDAD</color>
+    <color name="浅青色">#C8C86D</color>
+    <color name="淡青色">#83AF9B</color>
+</resources>
