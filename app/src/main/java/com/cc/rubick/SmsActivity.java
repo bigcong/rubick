@@ -96,7 +96,7 @@ public class SmsActivity extends AppCompatActivity {
 
             for (List<Sms> smsList : list) {
 
-                JsonObject jsonObject = restTemplate.post("pugna/sms/upload", smsList);
+                JsonObject jsonObject = restTemplate.post("sms/upload", smsList);
             }
 
 
@@ -157,7 +157,7 @@ public class SmsActivity extends AppCompatActivity {
             }
 
 
-            JsonObject jsonObject = restTemplate.get("pugna/callRecords/list?page.showCount=1");
+            JsonObject jsonObject = restTemplate.get("callRecords/list?page.showCount=1");
 
             String dateWhere = jsonObject.get("list").getAsJsonArray().get(0).getAsJsonObject().get("date").getAsString();
             Log.v("dateWhere", dateWhere);
@@ -195,7 +195,7 @@ public class SmsActivity extends AppCompatActivity {
                 return 0;
             }
 
-            JsonObject post = restTemplate.post("pugna/callRecords/uploadRecord", recordEntities);
+            JsonObject post = restTemplate.post("callRecords/uploadRecord", recordEntities);
             result = post.get("message").getAsString();
 
 

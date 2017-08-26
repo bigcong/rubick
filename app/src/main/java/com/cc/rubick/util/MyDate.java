@@ -14,7 +14,7 @@ import java.util.List;
 public class MyDate extends Application {
     private List<String> cookie = new ArrayList<>();
     //private String URL = "http://bigcong.tunnel.qydev.com/";
-    private String URL = "http://172.16.0.123:8090/";
+    private String URL = "http://192.168.199.112:8082/";
 
     @Override
     public void onCreate() {

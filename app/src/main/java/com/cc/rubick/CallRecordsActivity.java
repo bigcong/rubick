@@ -66,10 +66,10 @@ public class CallRecordsActivity extends AppCompatActivity {
             String dateBegin = params[1];
             String dateEnd = params[2];
 
-            String url = "pugna/callRecords/list?dateEnd=" + dateEnd + "&dateBegin=" + dateBegin + "&type=" + key + "&page.showCount=1000";
+            String url = "callRecords/list?dateEnd=" + dateEnd + "&dateBegin=" + dateBegin + "&type=" + key + "&page.showCount=1000";
 
             if (key == null) {
-                url = "pugna/callRecords/list?dateEnd=" + dateEnd + "&dateBegin=" + dateBegin + "&page.showCount=1000";
+                url = "callRecords/list?dateEnd=" + dateEnd + "&dateBegin=" + dateBegin + "&page.showCount=1000";
             }
             Log.v("url", url);
 
