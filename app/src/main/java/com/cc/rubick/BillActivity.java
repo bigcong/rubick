@@ -163,7 +163,7 @@ public class BillActivity extends AppCompatActivity implements OnChartValueSelec
             String dateBegin = "";
 
 
-            JsonObject jsonObject = restTemplate.get("pugna/transactionRecord/chart?dateEnd=" + dateEnd + "&dateBegin=" + dateBegin + "&page.showCount=10000");
+            JsonObject jsonObject = restTemplate.get("/transactionRecord/chart?dateEnd=" + dateEnd + "&dateBegin=" + dateBegin + "&page.showCount=10000");
             Gson g = new Gson();
             m = g.fromJson(jsonObject, Map.class);
 
